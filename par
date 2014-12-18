@@ -1,0 +1,10 @@
+31 //winSize must be larger than 2
+3 //maxLevel
+3 //criteria,TermCriteria::COUNT=1,TermCriteria::EPS=2
+20 //maxCount
+0.03 //epsilon
+0 //flags,OPTFLOW_USE_INITIAL_FLOW = 4, OPTFLOW_LK_GET_MIN_EIGENVALS = 8
+0.001 //minEigThreshold
+4 //threadNumber
+8 //sampling interval
+0 //initial,0表示始终计算所有像素的光流，1表示特征点使用上次的计算结果
